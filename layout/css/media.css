@@ -1,0 +1,52 @@
+@media (max-width:767px) {
+    .nav>li>a {
+        padding: 5px 15px
+    }
+    .navbar-inverse .navbar-nav>li>a>i {
+        padding-left: 1px;
+        display: block;
+        text-align: right
+    }
+    header .head-caption,
+    header .head-navigate {
+        text-align: center;
+    }
+    header .head-navigate {
+        padding-bottom: 50px
+    }
+    .recommendations .our-filter-item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav>li>a {
+        padding-bottom: 24px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    header .head-caption,
+    header .head-navigate {
+        text-align: center;
+    }
+    header .head-navigate {
+        padding-bottom: 50px
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    header .head img {
+        clip-path: none;
+        height: 410px
+    }
+    header .head-caption {
+        padding-top: 0
+    }
+    header .head-caption h2 {
+        font-size: 47px
+    }
+    header .head-navigate {
+        padding-bottom: 50px
+    }
+}

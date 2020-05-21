@@ -1,0 +1,285 @@
+:root {
+    --navbar-color: #1b2538;
+    --brand-color: #ef0707e0;
+    --active-navbar: #337ab74f;
+    --myBrand-font: 'Lobster', cursive;
+    --myHeading-font: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+    padding-top: 61px;
+    min-height: 7000px
+}
+
+
+/*Start Navbar*/
+
+.navbar-inverse {
+    background-color: var(--navbar-color);
+    border-color: #020b21
+}
+
+.navbar {
+    min-height: 62px !important;
+    line-height: 62px;
+    font-size: 20px
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    min-height: 63px;
+    overflow: hidden;
+    background-color: var(--active-navbar);
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover .navbar-inverse .navbar-nav>li>a>i {
+    background-color: var(--active-navbar);
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 45px;
+    line-height: 30px;
+    padding-left: 31px;
+    font-family: var(--myBrand-font);
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand span {
+    color: var(--brand-color)
+}
+
+.navbar-nav>li>.dropdown-menu {
+    background-color: var(--navbar-color);
+    border-top: 3px solid #fff;
+    min-width: 200px;
+    left: 0;
+    right: auto;
+    position: absolute;
+    top: 60px
+}
+
+.navbar-nav>li>.dropdown-menu li a {
+    color: #9d9d9d;
+    padding: 6px 20px;
+    transition: padding .5s ease;
+    font-size: 18px
+}
+
+.navbar-nav>li>.dropdown-menu li a:hover {
+    padding-left: 25px;
+    color: var(--brand-color);
+    font-weight: bold
+}
+
+.dropdown-menu .divider {
+    background-color: #fff
+}
+
+.navbar-collapse,
+.navbar-fixed-top .navbar-collaps {
+    max-height: none !important
+}
+
+
+/*End Navbar*/
+
+
+/*Start Header*/
+
+header {
+    background-color: #020b21;
+    color: #fff;
+}
+
+header .head {
+    margin-left: -13px;
+}
+
+.head img {
+    -webkit-clip-path: circle(67.6% at 32% 41%);
+    clip-path: circle(67.6% at 32% 41%);
+}
+
+header .head-caption h2 {
+    margin-bottom: 38px;
+    color: var(--brand-color);
+    font-size: 67px;
+    font-family: var(--myHeading-font);
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+header .head-caption p {
+    margin-bottom: 38px;
+    font-size: 24px
+}
+
+header .head-navigate {
+    margin-left: 10px
+}
+
+header .head-navigate button {
+    margin-right: 5px
+}
+
+
+/*End Header*/
+
+
+/*Start Companies*/
+
+.companies {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.companies .list-unstyled .img-responsive {
+    margin: auto;
+    opacity: .5;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.companies .list-unstyled .img-responsive:hover {
+    opacity: 1
+}
+
+
+/*End Companies*/
+
+
+/*Start Slider*/
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+    width: 100%;
+    height: 500px
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, .9);
+    top: 23%;
+    padding-right: 5px;
+    padding-left: 5px
+}
+
+.carousel-caption h3 {
+    font-size: 39px;
+    color: var(--brand-color);
+    padding-bottom: 10px
+}
+
+.carousel-caption button {
+    margin-bottom: 40px
+}
+
+.carousel-indicators li {
+    width: 15px;
+    border: 1px dotted var(--brand-color)
+}
+
+.carousel-indicators li.active {
+    width: 15px;
+    background: var(--brand-color);
+    border: 1px solid var(--brand-color)
+}
+
+
+/*End Slider*/
+
+
+/*Start Recommendations*/
+
+.recommendations {
+    padding-top: 50px;
+}
+
+.recommendations h3 {
+    font-family: var(--myBrand-font);
+    color: var(--brand-color);
+    font-size: 43px;
+}
+
+.recommendations ul {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.recommendations ul li {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--navbar-color);
+    margin-right: 10px;
+    color: #9d9d9d;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: var(--myHeading-font);
+    width: 93px;
+    text-align: center;
+    margin-bottom: 59px;
+}
+
+.recommendations .our-filter-item {
+    float: left;
+    width: 33.3333%
+}
+
+.recommendations ul.shuffle li.selected {
+    color: #fff;
+    background-color: var(--brand-color)
+}
+
+.recommendations .pic .img-responsive {
+    width: 75%;
+    height: 350px;
+    margin: auto;
+    box-shadow: 10px 10px 10px 1px #efe7e7;
+    border: 3px solid #333;
+}
+
+.recommendations .pic-caption {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px
+}
+
+.recommendations .pic-caption h4 {
+    font-weight: bold;
+    color: var(--brand-color);
+    font-size: 43px;
+    padding: 2px 0;
+    font-family: var(--myHeading-font);
+}
+
+.recommendations .pic-caption span {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin-right: 10px;
+    color: var(--navbar-color);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: var(--myHeading-font);
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    margin-bottom: 5px
+}
+
+.recommendations .pic-caption span:hover {
+    background-color: var(--brand-color);
+    color: #fff
+}
+
+
+/*End Recommendations*/
