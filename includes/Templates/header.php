@@ -1,3 +1,14 @@
+<!--
+
+
+Template Name: K-Z World
+Email: yaraelmalah90@gmail.com
+Last Modified: 24 - 05 - 2020 
+By: Yara ElMalah
+
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +41,6 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Movies<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -43,10 +53,7 @@
             <li><a href="#">DC</a></li>
           </ul>
         </li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Anime</a></li>
+          <li><a href="#">Anime</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Series <span class="caret"></span></a>
           <ul class="dropdown-menu">

@@ -1,3 +1,13 @@
+<!--
+
+Template Name: K-Z World
+Email: yaraelmalah90@gmail.com
+Last Modified: 24 - 05 - 2020 
+By: Yara ElMalah
+
+ -->
+
+
 <?php
 
 include 'init.php';
@@ -20,8 +30,9 @@ include  $templates . 'header.php'
         </p>
       </div>
       <div class="head-navigate">
-        <button class="btn btn-warning text-capitalize btn-lg">sign up</button>
-      <button class="btn btn-primary text-capitalize btn-lg">taka an overview</button>
+        <button class="btn btn-warning text-capitalize btn-lg sign-button" data-scroll="register">sign up</button>
+      <button class="btn btn-primary text-capitalize btn-lg explore"
+       data-scroll="current-show">taka an overview</button>
       </div>
     </div>
   </div>
@@ -46,7 +57,7 @@ include  $templates . 'header.php'
 </section>
 <!--End Companies-->
 <!--Start Slider-->
-<section class="slider">
+<section class="slider" id="current-show">
   <div id="sections-content" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -292,6 +303,95 @@ include  $templates . 'header.php'
         </div>
     </section>
     <!--End Recommendations-->
+    <div class="clearfix"></div>
+    <?php include $functions . 'form-variables.php'; ?> 
+    <!--Start SignUp Form-->
+    <section class="signup" id="register">
+      <div class="overlay">
+      <div class="container">
+        <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+            <h3 class="text-center text-capitalize">don't miss a beat <i class="fas fa-magic fa-lg"></i></h3>
+            <h4 class="text-center text-uppercase">sign up now</h4> 
+            <div class="row">
+              <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" 
+              name="first-name" 
+              placeholder="first name" 
+              class="text-capitalize input-lg form-control full-name first" 
+              required="required" 
+              value="<?php
+                      if(isset($firstName)):
+                        echo $firstName;
+                       endif;
+                   ?>" >
+            </div>
+            <div class="form-group">
+              <input type="text" 
+              name="last-name" 
+              placeholder="last name" 
+              class="text-capitalize input-lg form-control full-name last"
+              required="required" 
+              value="<?php if(isset($lastName)):
+                        echo $lastName;
+                       endif;
+                   ?>" >
+            </div> 
+            <div class="form-group">
+              <input type="password" 
+              name="password" 
+              placeholder="Password" 
+              class="input-lg form-control validate-pass" 
+              autocomplete 
+              required="required" 
+              >
+            </div>
+             <div class="form-group">
+              <input type="email" 
+              name="email" 
+              placeholder="Email" 
+              class="input-lg form-control validate-mail" 
+              required="required" 
+              value="<?php
+                      if(isset($email)):
+                        echo $email;
+                      endif;
+                   ?>">
+            </div>
+          </div>
+          <div class="col-md-6">
+            
+            <div class="form-group form-control age">
+              <span class="label-span">Day</span>
+              <select id="day"></select> 
+              <span class="label-span">Month</span>
+              <select id="month"></select> 
+              <span class="label-span">Year</span>
+              <select id="year"></select> 
+            </div>
+            <div class="form-group">
+              <textarea name="bio"
+                placeholder="Tell Us about Yourself!" 
+                class=" form-control" 
+                value=""
+              ></textarea>
+            </div>
+             <input type="submit" value="Sign Up Now"
+            class="btn btn-danger btn-lg btn-block">
+          </div>
+
+            
+            </div>
+        </form>
+         <!--The Errors-->
+          <div class="errors text-center">
+            <?php include $functions . 'backend-form.php'; ?>
+              
+            </div>
+        </div>
+      </div>
+    </section>
+          <!--End SignUp Form-->
 <?php
 include $templates . 'footer.php';
 

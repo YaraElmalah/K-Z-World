@@ -1,3 +1,14 @@
+/*
+
+
+Template Name: K-Z World
+Email: yaraelmalah90@gmail.com
+Last Modified: 24 - 05 - 2020 
+By: Yara ElMalah
+
+
+*/
+
 @media (max-width:767px) {
     .nav>li>a {
         padding: 5px 15px
@@ -6,6 +17,9 @@
         padding-left: 1px;
         display: block;
         text-align: right
+    }
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+        line-height: 2.5
     }
     header .head-caption,
     header .head-navigate {
@@ -17,12 +31,26 @@
     .recommendations .our-filter-item {
         width: 50%;
     }
+    .signup .errors .alert-danger, 
+    .signup .errors .alert-success{
+
+            width: 80%
+    }
+     footer .copyright{
+        width: 100%;
+        float: none
+
+
+    }
+
 }
+
 
 @media (min-width: 768px) {
     .navbar-nav>li>a {
         padding-bottom: 24px !important;
     }
+ 
 }
 
 @media (min-width: 768px) and (max-width:991px) {
@@ -33,6 +61,15 @@
     header .head-navigate {
         padding-bottom: 50px
     }
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+    .signup .errors .alert-danger, 
+    .signup .errors .alert-success{
+
+            width: 80%
+    }
+
 }
 
 @media (min-width:992px) and (max-width:1199px) {
@@ -49,4 +86,5 @@
     header .head-navigate {
         padding-bottom: 50px
     }
+    
 }

@@ -1,3 +1,14 @@
+/*
+
+
+Template Name: K-Z World
+Email: yaraelmalah90@gmail.com
+Last Modified: 24 - 05 - 2020 
+By: Yara ElMalah
+
+
+*/
+
 :root {
     --navbar-color: #1b2538;
     --brand-color: #ef0707e0;
@@ -8,7 +19,6 @@
 
 body {
     padding-top: 61px;
-    min-height: 7000px
 }
 
 
@@ -283,3 +293,122 @@ header .head-navigate button {
 
 
 /*End Recommendations*/
+/*Start SignUp Form*/
+.signup{
+    margin-top: 50px;
+   
+    background:url('../images/form.jpg') no-repeat fixed center center;
+    min-height: 300px
+}
+.signup .overlay{
+    background-color: rgba(0,0,0,.95);
+      min-height: 300px;
+       padding-top: 70px;
+    padding-bottom: 70px;
+}
+.signup h3{
+     color: var(--brand-color);
+    font-family: var(--myBrand-font);
+    font-size: 49px;
+    padding-bottom: 10px;
+}
+.signup h4{
+    color: #7c8ad1;
+    font-family: var(--myHeading-font);
+    font-size: 33px;
+    padding-bottom: 25px;
+}
+.signup form{
+    margin-bottom: 30px
+}
+.sigup input,
+.signup textarea,
+.form-control{
+    background: transparent !important;
+    color: #fff !important;
+    border-color: #333;
+}
+.signup .age{
+    padding-top: 10px;
+    padding-bottom: 21px;
+    height: 46px;
+}
+.signup .age span{
+    margin-right: 10px;
+    margin-left: 10px
+}
+.signup .age select{
+    background: transparent;
+    margin: auto;
+    display: inline-block;
+}
+.signup .age select option{
+    margin: auto;
+    display: inline-block;
+    color: #000;
+    width: 150px;
+}
+.signup textarea{
+    height: 108px;
+    resize: none;
+}
+.signup .errors .alert-danger{
+    border: 3px solid #e74040d1;
+    font-weight: bold;
+    width: 40%;
+    margin: auto;
+}
+
+.signup .errors .alert-success{
+    border: 3px solid #1d650a;
+    font-weight: bold;
+    width: 40%;
+    margin: auto;
+}
+/*End SignUp Form*/
+/*Start Footer*/
+footer{
+    background-color: var(--navbar-color);
+    color: #fff;
+    border-top: 5px solid var(--brand-color);
+    padding-top: 15px;
+    padding-bottom: 5px
+}
+footer .social{
+    float: left;
+    width: 50%;
+    text-align: center
+}
+footer .social li{
+    float: left;
+    margin-right: 40px;
+    cursor: pointer;
+}
+footer .social li i.fa-twitter{
+    color: #1da1f2;
+}
+footer .social li i.fa-behance{
+    color: #fd1d1d;
+}
+footer .social li i.fa-facebook-f{
+    color: #3b5998;
+}
+footer .social li i.fa-github{
+    color: #fff;
+}
+footer .social li i.fa-instagram{
+    color:#f77737 ;
+}
+footer .copyright{
+    font-size: 21px;
+    font-family: var(--myBrand-font);
+    float: right;
+    margin-right: 26px;
+    text-align: center;
+    color: #fff
+
+}
+footer .copyright span{
+    color: var(--brand-color);s
+}
+/*End Footer*/
