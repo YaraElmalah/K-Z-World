@@ -77,7 +77,7 @@ include  $templates . 'header.php'
         <img src="<?php echo $imagesFiles; ?>lucifer.jpg" alt="lucifer">
         <div class="carousel-caption">
           <h3 class="text-capitalize">lucifer</h3>
-          <p class="lead">Lucifer, a demon, returns from hell to reside in Los Angeles and runs a club. He soon gets involved with the local police and assists them in solving tricky criminal cases.</p>
+          <p class="lead hidden-xs">Lucifer, a demon, returns from hell to reside in Los Angeles and runs a club. He soon gets involved with the local police and assists them in solving tricky criminal cases.</p>
           <button class="btn btn-danger btn-lg text-capitalize text-center">watch now</button>
           <button class="btn btn-primary btn-lg text-capitalize text-center">go to Series</button>
         </div>
@@ -86,7 +86,7 @@ include  $templates . 'header.php'
         <img src="<?php echo $imagesFiles; ?>irishman.jpg" alt="irishman">
         <div class="carousel-caption">
           <h3 class="text-capitalize">irishman</h3>
-          <p class="lead">In the 1950s, truck driver Frank Sheeran gets involved with Russell Bufalino and his Pennsylvania crime family. As Sheeran climbs the ranks to become a top hit man, he also goes to work for Jimmy Hoffa -- a powerful Teamster tied to organized crime.</p>
+          <p class="lead hidden-xs">In the 1950s, truck driver Frank Sheeran gets involved with Russell Bufalino and his Pennsylvania crime family. As Sheeran climbs the ranks to become a top hit man, he also goes to work for Jimmy Hoffa -- a powerful Teamster tied to organized crime.</p>
           <button class="btn btn-danger btn-lg text-capitalize text-center">watch now</button>
           <button class="btn btn-primary btn-lg text-capitalize text-center">go to movies</button>
         </div>
@@ -95,7 +95,7 @@ include  $templates . 'header.php'
         <img src="<?php echo $imagesFiles; ?>death-parade.jpg" alt="death-parade">
         <div class="carousel-caption">
           <h3 class="text-capitalize">death parade</h3>
-          <p class="lead">The Quindecim Bar hosts games between the recently deceased that determine the fate of their souls.</p>
+          <p class="lead hidden-xs">The Quindecim Bar hosts games between the recently deceased that determine the fate of their souls.</p>
           <button class="btn btn-danger btn-lg text-capitalize text-center">watch now</button>
           <button class="btn btn-primary btn-lg text-capitalize text-center">go to anime</button>
         </div>
@@ -104,7 +104,7 @@ include  $templates . 'header.php'
         <img src="<?php echo $imagesFiles; ?>harry-potter.jpg" alt="harry-potter">
         <div class="carousel-caption">
           <h3 class="text-capitalize">harry potter books</h3>
-          <p class="lead">Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.</p>
+          <p class="lead hidden-xs">Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.</p>
           <button class="btn btn-danger btn-lg text-capitalize text-center">read now</button>
           <button class="btn btn-primary btn-lg text-capitalize text-center">go to books</button>
         </div>
@@ -113,7 +113,7 @@ include  $templates . 'header.php'
         <img src="<?php echo $imagesFiles; ?>hunter.jpg" alt="hunterxhunter">
         <div class="carousel-caption">
           <h3 class="text-capitalize">hunter x hunter</h3>
-          <p class="lead">The show features the protagonist Gon, on a mission to train himself as a hunter. He reunites with his father, who is alive and an accomplished hunter too.</p>
+          <p class="lead hidden-xs">The show features the protagonist Gon, on a mission to train himself as a hunter. He reunites with his father, who is alive and an accomplished hunter too.</p>
           <button class="btn btn-danger btn-lg text-capitalize text-center">watch now</button>
           <button class="btn btn-primary btn-lg text-capitalize text-center">go to anime</button>
         </div>
@@ -122,7 +122,7 @@ include  $templates . 'header.php'
         <img src="<?php echo $imagesFiles; ?>breaking-bad.jpg" alt="breaking-bad">
         <div class="carousel-caption">
           <h3 class="text-capitalize">breaking bad</h3>
-          <p class="lead">Walter White, a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business to repay his medical debts. His priorities begin to change when he partners with Jesse.</p>
+          <p class="lead hidden-xs">Walter White, a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business to repay his medical debts. His priorities begin to change when he partners with Jesse.</p>
           <button class="btn btn-danger btn-lg text-capitalize text-center">watch now</button>
           <button class="btn btn-primary btn-lg text-capitalize text-center">go to series</button>
         </div>
@@ -131,7 +131,7 @@ include  $templates . 'header.php'
         <img src="<?php echo $imagesFiles; ?>attack-on-titan.jpg" alt="attack-on-titan">
         <div class="carousel-caption">
           <h3 class="text-capitalize">attack on titan</h3>
-          <p class="lead">When man-eating Titans first appeared 100 years ago, humans found safety behind massive walls that stopped the giants in their tracks. But the safety they have had for so long is threatened when a colossal Titan smashes through the barriers, causing a flood of the giants into what had been the humans' safe zone.</p>
+          <p class="lead hidden-xs">When man-eating Titans first appeared 100 years ago, humans found safety behind massive walls that stopped the giants in their tracks. But the safety they have had for so long is threatened when a colossal Titan smashes through the barriers, causing a flood of the giants into what had been the humans' safe zone.</p>
           <button class="btn btn-danger btn-lg text-capitalize text-center">watch now</button>
           <button class="btn btn-primary btn-lg text-capitalize text-center">go to anime</button>
         </div>
@@ -140,7 +140,7 @@ include  $templates . 'header.php'
         <img src="<?php echo $imagesFiles; ?>coll.jpg" alt="collection">
         <div class="carousel-caption">
           <h3 class="text-capitalize">find your next journey</h3>
-          <p class="lead">We have a good collection of a visual entertainment</p>
+          <p class="lead hidden-xs">We have a good collection of a visual entertainment</p>
   <button class="btn btn-success btn-lg text-capitalize text-center">books <i class="fas fa-book"></i></button>
     <button class="btn btn-primary btn-lg text-capitalize text-center">anime <i class="fas fa-paw"></i></button><br>
           <button class="btn btn-danger btn-lg text-capitalize text-center">movies <i class="fas fa-film"></i></button>
@@ -172,7 +172,7 @@ include  $templates . 'header.php'
                                 </div>
                                 <div class="pic-caption">
                                     <h4 class="text-capitalize">Extraction</h4>
-                                    <span class="year">2020</span> <span class="gender">Action</span> <span class="time">1h 57m</span>
+                                    <span class="year">2020</span> <span class="gender">Action</span> <span class="time hidden-xs">1h 57m</span>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +183,7 @@ include  $templates . 'header.php'
                                 </div>
                                 <div class="pic-caption">
                                     <h4 class="text-capitalize">Riverdale</h4>
-                                    <span class="year">2017</span> <span class="gender">Crime</span> <span class="time">4 Seasons</span>
+                                    <span class="year">2017</span> <span class="gender">Crime</span> <span class="time hidden-xs hidden-xs">4 Seasons</span>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +194,7 @@ include  $templates . 'header.php'
                                 </div>
                                 <div class="pic-caption">
                                     <h4 class="text-capitalize">Psycho-Pass</h4>
-                                    <span class="year">2012</span> <span class="gender">Crime Fiction</span> <span class="time">3 Seasons</span>
+                                    <span class="year">2012</span> <span class="gender">Crime</span> <span class="time hidden-xs">3 Seasons</span>
                                 </div>
                             </div>
                         </div>
@@ -205,7 +205,7 @@ include  $templates . 'header.php'
                                 </div>
                                 <div class="pic-caption">
                                     <h4 class="text-capitalize">Claudine at School</h4>
-                                    <span class="year">1900</span> <span class="gender">Biography</span> <span class="time">294 Pages</span>
+                                    <span class="year">1900</span> <span class="gender">History</span> <span class="time hidden-xs">294 Pages</span>
                                 </div>
                             </div>
                         </div>
@@ -216,7 +216,7 @@ include  $templates . 'header.php'
                                 </div>
                                 <div class="pic-caption">
                                     <h4 class="text-capitalize">Amélie</h4>
-                                    <span class="year">2001</span> <span class="gender"> Romance</span> <span class="time"> 2h 9m</span>
+                                    <span class="year">2001</span> <span class="gender">Drama</span> <span class="time hidden-xs"> 2h 9m</span>
                                 </div>
                             </div>
                         </div>
@@ -227,7 +227,7 @@ include  $templates . 'header.php'
                                 </div>
                                 <div class="pic-caption">
                                     <h4 class="text-capitalize">Stranger Things</h4>
-                                    <span class="year">2016</span> <span class="gender"> Horror</span> <span class="time"> 3 Seasons</span>
+                                    <span class="year">2016</span> <span class="gender"> Horror</span> <span class="time hidden-xs"> 3 Seasons</span>
                                 </div>
                             </div>
                         </div>
@@ -238,7 +238,7 @@ include  $templates . 'header.php'
                                 </div>
                                 <div class="pic-caption">
                                     <h4 class="text-capitalize">Hunter X Hunter</h4>
-                                    <span class="year">2011</span> <span class="gender"> Adventure</span> <span class="time"> 6 Seasons</span>
+                                    <span class="year">2011</span> <span class="gender">Fiction</span> <span class="time hidden-xs"> 6 Seasons</span>
                                 </div>
                             </div>
                         </div>
@@ -249,7 +249,7 @@ include  $templates . 'header.php'
                                 </div>
                                 <div class="pic-caption">
                                     <h4 class="text-capitalize">A Song Of Ice and Fire</h4>
-                                    <span class="year">1996</span> <span class="gender"> Fantasy</span> <span class="time"> 5 Books</span>
+                                    <span class="year">1996</span> <span class="gender"> Fantasy</span> <span class="time hidden-xs"> 5 Books</span>
                                 </div>
                             </div>
                         </div>
@@ -260,7 +260,7 @@ include  $templates . 'header.php'
                                 </div>
                                 <div class="pic-caption">
                                     <h4 class="text-capitalize">Girl, Interrupted</h4>
-                                    <span class="year">1999</span> <span class="gender"> Drama</span> <span class="time"> 2h 7m</span>
+                                    <span class="year">1999</span> <span class="gender"> Drama</span> <span class="time hidden-xs"> 2h 7m</span>
                                 </div>
                             </div>
                         </div>
@@ -271,7 +271,7 @@ include  $templates . 'header.php'
                                 </div>
                                 <div class="pic-caption">
                                     <h4 class="text-capitalize">Westworld</h4>
-                                    <span class="year">2016</span> <span class="gender">Sci-Fiction</span> <span class="time"> 3 Seasons</span>
+                                    <span class="year">2016</span> <span class="gender">Fiction</span> <span class="time hidden-xs"> 3 Seasons</span>
                                 </div>
                             </div>
                         </div>
@@ -282,7 +282,7 @@ include  $templates . 'header.php'
                                 </div>
                                 <div class="pic-caption">
                                     <h4 class="text-capitalize">One Piece</h4>
-                                    <span class="year">1999</span> <span class="gender">Adenture</span> <span class="time">21 Seasons</span>
+                                    <span class="year">1999</span> <span class="gender">Travel</span> <span class="time hidden-xs">21 Seasons</span>
                                 </div>
                             </div>
                         </div>
@@ -293,7 +293,7 @@ include  $templates . 'header.php'
                                 </div>
                                 <div class="pic-caption">
                                     <h4 class="text-capitalize">La Casa De Papel</h4>
-                                    <span class="year">2017</span> <span class="gender">Crime</span> <span class="time">4 Seasons</span>
+                                    <span class="year">2017</span> <span class="gender">Crime</span> <span class="time hidden-xs">4 Seasons</span>
                                 </div>
                             </div>
                         </div>
